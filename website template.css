@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0,.75),rgb(0, 0, 0,.75)),url(redfort.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+ .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+ }
+ .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+ }
+ .navbar ul li a:hover{
+    color: red;
+ }
+ .content{
+    width: 100%;
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+ }
+ .content h1{
+    font-size: 70px;
+    margin-top: 80px;
+ }
+ .content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+ }
+ button{
+    width: 200px;
+    /* height: 150px; */
+    padding: 15px;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: burlywood;
+    color: white;
+    cursor:pointer;
+ }
+ button:hover{
+     color:black;
+     background-color: yellow;
+ }
